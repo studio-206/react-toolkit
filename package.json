@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "build": "rm -rf dist/ && yarn tsc",
-    "install": "npm run build"
+    "postinstall": "npm run build"
   },
   "author": "Karl Taylor",
   "license": "MIT",

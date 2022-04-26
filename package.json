@@ -20,5 +20,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "typescript": "^4.5.5"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "description": "This is our react toolkit, for all the very generic things that we end up repeating ourselves in most projects.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studio-206/react-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/studio-206/react-toolkit/issues"
+  },
+  "homepage": "https://github.com/studio-206/react-toolkit#readme"
 }

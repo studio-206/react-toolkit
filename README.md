@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/@studio206/react-toolkit)](https://www.npmjs.com/package/@studio206/react-toolkit)
+
 # Studio 206 - React Toolkit
 
 This is our react toolkit, for all the very generic things that we end up repeating ourselves in most projects.

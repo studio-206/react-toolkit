@@ -1,6 +1,6 @@
 {
   "name": "@studio206/react-toolkit",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -17,9 +17,11 @@
   },
   "dependencies": {
     "@stitches/react": "^1.2.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0  || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0  || ^17.0.0 || ^18.0.0"
   },
   "types": "./dist/index.d.ts",
   "description": "This is our react toolkit, for all the very generic things that we end up repeating ourselves in most projects.",

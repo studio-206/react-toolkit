@@ -14,3 +14,11 @@ There's little-to-no styling to most of the components, it's more about underlyi
 ## Hooks
 
 - [`useWindowSize`](./src/hooks/useWindowSize.tsx)
+
+## Installation
+
+```bash
+npm i @studio206/react-toolkit
+# or
+yarn add @studio206/react-toolkit
+```

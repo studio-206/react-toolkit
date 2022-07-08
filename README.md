@@ -17,8 +17,14 @@ There's little-to-no styling to most of the components, it's more about underlyi
 
 ## Installation
 
+npm 
+
 ```bash
 npm i @studio206/react-toolkit
-# or
+```
+
+Yarn
+
+```
 yarn add @studio206/react-toolkit
 ```

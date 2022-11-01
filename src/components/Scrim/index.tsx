@@ -1,12 +1,13 @@
 import { CSS, styled } from "@stitches/react";
+import { HTMLAttributes } from "react";
 
-interface ScrimProps {
+interface ScrimProps extends HTMLAttributes<HTMLDivElement> {
   isActive: boolean;
   css?: CSS;
 }
 
-const Scrim = ({ isActive, css }: ScrimProps) => {
-  return <Wrap isActive={isActive} css={css}></Wrap>;
+const Scrim = ({ isActive, css, ...rest }: ScrimProps) => {
+  return <Wrap isActive={isActive} css={css} {...rest}></Wrap>;
 };
 
 const Wrap = styled("div", {

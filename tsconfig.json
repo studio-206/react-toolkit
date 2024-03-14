@@ -5,7 +5,6 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "lib": ["dom", "ES6", "ES7"],
-    "types": [],
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,

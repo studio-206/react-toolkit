@@ -1,28 +1,28 @@
 {
   "name": "@studio206/react-toolkit",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist/ && yarn tsup",
+    "build": "rm -rf dist/ && tsup",
     "prepare": "npm run build"
   },
   "author": "Karl Taylor",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.2.65",
-    "@types/react-dom": "^18.2.22"
+    "@types/react-dom": "^18.2.22",
+    "tsup": "^8.0.2"
   },
   "dependencies": {
     "@stitches/react": "^1.2.8",
-    "tsup": "^8.0.2",
     "typescript": "^4.5.5"
   },
   "peerDependencies": {
-    "react": "^16.8.0  || ^17.0.0 || ^18.2.0",
-    "react-dom": "^16.8.0  || ^17.0.0 || ^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "types": "./dist/index.d.ts",
   "description": "This is our react toolkit, for all the very generic things that we end up repeating ourselves in most projects.",
